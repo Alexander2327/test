@@ -11,3 +11,8 @@ export default function checkHealth(obj) {
   }
   return 0;
 }
+
+export function sortHeroes(arr) {
+  arr.sort((a, b) => b.health - a.health);
+  return arr;
+}
