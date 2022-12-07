@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import checkHealth from '../index';
 
 const dataList = [

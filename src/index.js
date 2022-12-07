@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 export default function checkHealth(obj) {
   if (obj.health > 50) {
     return 'healthy';
